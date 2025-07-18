@@ -2,6 +2,12 @@
 {
     internal class Program
     {
+        #region Video01
+        //1.Classes
+        //2.Struct
+        //3.Enum
+        //4.Interface
+        #endregion
         static void Main(string[] args)
         {
             #region Video01 Struct
@@ -91,7 +97,17 @@
 
 
             #endregion
-
+            #region Video04  Encapsulation using properties
+            //Employee E01 = new Employee();
+            //E01.Id = 12;//set
+            //E01.Name = "Ahmed";
+            //E01.Salary = -12000;
+            //E01.Address = "Cairo";
+            //Console.WriteLine(E01.Id);//get
+            //Console.WriteLine(E01.Name);
+            //Console.WriteLine(E01.Salary);
+            //Console.WriteLine(E01.Address);
+            #endregion
 
         }
     }
