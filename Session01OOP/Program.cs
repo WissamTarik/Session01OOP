@@ -35,6 +35,25 @@
             //Console.WriteLine(P01);
 
             #endregion
+            #region Video02 OOP Overview
+            //OOP:Object Oriented Programming
+            //Is a programming paradigm
+            //OOP:The paradigm used for build any business because it simulates reality
+
+            //Class:is the BLUEPRINT of an object
+            //Object: Specific instance of a class
+
+            /*4.Pillars of OOP:
+             =================
+              1.Encapsulation
+              2.Inheritance
+              3.Polymorphism
+              4.Abstraction
+             
+             */
+
+            #endregion
+
         }
     }
 }
