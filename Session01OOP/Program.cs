@@ -54,6 +54,45 @@
 
             #endregion
 
+            #region Video03  Encapsulation using Getter and Setter Methods
+            //Encapsulation:Separate data(attributes) defination from  its user 
+            //use setter and getter or Properties
+            //Used on struct or class
+            //Employee Id,Name,Salary
+            //Employee E01 = new Employee(10,"Ahmed",12000);
+            //Id is read only 
+            //E01.id = 1;
+            //E01.name = "Ahmed";
+            //E01.salary = 12000;
+
+            //1.End user access data itself
+            //2.No data validation
+            //3. No read only field
+
+
+
+            //Console.WriteLine(E01.id);
+            //Console.WriteLine(E01.name);
+            //Console.WriteLine(E01.salary);
+
+            //To Apply Encapsulation
+            //1.Make all the attributes(data) private
+            //2.Access data through:
+            //2.1 setter and getter methods
+            //2.2 Properties
+            //E01.SetId(1);
+            //E01.SetName("Ahmed");
+            //E01.SetSalary(-12000);
+            //Console.WriteLine(E01.GetId());
+            //Console.WriteLine(E01.GetName());
+            //Console.WriteLine(E01.GetSalary());
+            //Console.WriteLine(E01);
+
+
+
+            #endregion
+
+
         }
     }
 }
