@@ -33,34 +33,47 @@
             #endregion
 
             #region Q2
-            Person[] persons = new Person[3];
-            for (int i = 0; i < persons.Length; i++)
-            {
-                bool Flag;
-                int age;
+            //Person[] persons = new Person[3];
+            //for (int i = 0; i < persons.Length; i++)
+            //{
+            //    bool Flag;
+            //    int age;
                
-                    Console.Write($"Enter person {i+1} name: ");
-                    persons[i].Name = Console.ReadLine();
-                do
-                {
-                    Console.Write($"Enter person {i + 1} age: ");
-                    Flag = int.TryParse(Console.ReadLine(), out age);
-                } while (!Flag);
-                persons[i].Age = age;
+            //        Console.Write($"Enter person {i+1} name: ");
+            //        persons[i].Name = Console.ReadLine();
+            //    do
+            //    {
+            //        Console.Write($"Enter person {i + 1} age: ");
+            //        Flag = int.TryParse(Console.ReadLine(), out age);
+            //    } while (!Flag);
+            //    persons[i].Age = age;
  
-            }
-            int max = persons[0].Age,index=0;
-            for (int i = 1; i < persons.Length; i++)
-            {
-                if (persons[i].Age > max)
-                {
-                    index = i;
-                    max=persons[i].Age;
-                }  
-            }
-            Console.Clear();
-            Console.WriteLine($"The oldest person is {persons[index].Name} with  age {persons[index].Age}");
+            //}
+            //int max = persons[0].Age,index=0;
+            //for (int i = 1; i < persons.Length; i++)
+            //{
+            //    if (persons[i].Age > max)
+            //    {
+            //        index = i;
+            //        max=persons[i].Age;
+            //    }  
+            //}
+            //Console.Clear();
+            //Console.WriteLine($"The oldest person is {persons[index].Name} with  age {persons[index].Age}");
             #endregion
+            #endregion
+
+            #region P02
+            Employee[] Employees = new Employee[3];
+            Employees[0] = new Employee(1, "Ahmed", 3000, 1, 12, 2025, "Male", Previlage.Developer);
+            Employees[1] = new Employee(2, "Omar", 5000, 10, 1, 2023, "Male", Previlage.Security_officer);
+            Employees[2] = new Employee(3, "Wissam", 10000, 10, 1, 2023, "F", Previlage.Guest);
+
+            for (int i = 0; i < Employees.Length; i++)
+            {
+                Console.WriteLine(Employees[i]);
+                Console.WriteLine("===================================================");
+            }
             #endregion
         }
 
