@@ -109,6 +109,23 @@
             //Console.WriteLine(E01.Address);
             #endregion
 
+            #region Video05 Indexer
+            //indexer is a special method
+            //1.name must start with this
+            //PhoneBook phoneBook = new PhoneBook(3);
+            //phoneBook.AddPerson("Ahmed", 1111, 0);
+            //phoneBook.AddPerson("Ali", 2222, 1);
+            ////phoneBook.AddPerson("Omar", 3333, 2);
+            ////Console.WriteLine(phoneBook.GetNumber("Ahmed"));
+            ////phoneBook.UpdateNumber("Ahmed", 999);
+            ////Console.WriteLine(phoneBook.GetNumber("Ahmed"));
+            //Console.WriteLine(phoneBook["Ahmed"]);
+            //phoneBook["Ahmed"] =999;
+            //Console.WriteLine(phoneBook["Ahmed"]);
+            //Console.WriteLine(phoneBook[2222]);
+
+            #endregion
+
         }
     }
 }
