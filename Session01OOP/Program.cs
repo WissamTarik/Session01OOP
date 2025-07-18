@@ -126,6 +126,31 @@
 
             #endregion
 
+            #region Video06 Class and constructor chaining
+            //Class:Reference type:stored in HEAP
+
+            //Car C01;
+            //Declare for reference(pointer) from type "Car" at stack
+            //C01 can refer ro an object(instance) of type Car or any class inherited from car
+            //C01 refer to null
+            //8 Bytes will be allocated at STACK for the reference
+            //0 Bytes will be allocated at HEAP
+
+            //C01=new Car(1,"XYZ",100);
+            //C01 = new Car(1, 100);
+            //C01 = new Car(1);
+
+            //new
+            // 1.Allocate the number of required bytes at HEAP  for the object(16+Byte)
+            // 2.initialze the allocated bytes with the default value of the datatypes
+            // 3.Call user defined constructor if exist
+            // 4.Assign the object to the reference
+            //Console.WriteLine(C01.Id);
+            //Console.WriteLine(C01.Model);
+            //Console.WriteLine(C01.Speed);
+            //Console.WriteLine(C01);//name space
+            #endregion
+
         }
     }
 }
